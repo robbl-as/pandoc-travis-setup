@@ -1,12 +1,5 @@
 #!/bin/bash
-echo '######################################'
-echo '#                Build               #'
-echo '#              - START -             #'
-echo '######################################'
 
+echo 'Build started'
 make all
-
-echo '######################################'
-echo '#                Build               #'
-echo '#            - FINISHED -            #'
-echo '######################################'
+echo 'Build finished'
